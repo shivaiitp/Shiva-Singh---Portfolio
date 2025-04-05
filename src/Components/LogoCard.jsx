@@ -16,7 +16,7 @@ const LogoCard = () => {
         to="Home"
         smooth={true}
         duration={500}
-        className="inline-block px-3 py-1.5 rounded-lg bg-gradient-to-br from-[#3e43df] to-[#21a5d4] shadow-xl text-white font-semibold text-base sm:text-lg lg:text-xl tracking-wide cursor-pointer"
+        className="inline-block px-3 py-1 rounded-lg bg-gradient-to-br from-[#3e43df] to-[#21a5d4] shadow-xl text-white font-semibold text-base sm:text-lg lg:text-xl tracking-wide cursor-pointer"
       >
         SHIVA
       </Link>
