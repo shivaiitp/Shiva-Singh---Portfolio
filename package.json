@@ -27,7 +27,6 @@
     "react-parallax-tilt": "^1.7.289",
     "react-redux": "^9.2.0",
     "react-scroll": "^1.9.3",
-    "react-tilt": "^1.0.2",
     "react-tsparticles": "^2.12.2",
     "tsparticles": "^3.8.1",
     "typewriter-effect": "^2.21.0"
