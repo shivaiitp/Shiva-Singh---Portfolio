@@ -15,8 +15,6 @@
     "@fontsource/inter": "^5.2.5",
     "@fontsource/roboto": "^5.2.5",
     "@fontsource/ubuntu": "^5.2.5",
-    "@react-three/drei": "^10.0.5",
-    "@react-three/fiber": "^9.1.0",
     "@reduxjs/toolkit": "^2.6.1",
     "@remixicon/react": "^4.6.0",
     "framer-motion": "^12.6.2",
@@ -31,7 +29,6 @@
     "react-scroll": "^1.9.3",
     "react-tilt": "^1.0.2",
     "react-tsparticles": "^2.12.2",
-    "three": "^0.174.0",
     "tsparticles": "^3.8.1",
     "typewriter-effect": "^2.21.0"
   },
