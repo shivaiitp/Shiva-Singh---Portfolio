@@ -118,7 +118,7 @@ function About() {
       </h3>
 
       <div className="w-full flex justify-center">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 gap-6">
           {languages.map((lang, idx) => (
             <motion.div
               key={idx}
@@ -127,10 +127,10 @@ function About() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: idx * 0.1 }}
               viewport={{ once: true }}
-              className="bg-gray-900 border border-gray-700 hover:border-blue-500 hover:shadow-cyan-400/30 px-5 py-4 rounded-2xl shadow-lg w-full max-w-sm text-white text-center"
+              className="bg-gray-900 border border-gray-700 hover:border-blue-500 hover:shadow-cyan-400/30 px-3 py-2 md:px-5 md:py-4 rounded-xl shadow-lg w-full max-w-sm text-white text-center"
             >
-              <h4 className="text-2xl font-bold text-cyan-400">{lang.name}</h4>
-              <p className="text-gray-300 text-base">{lang.level}</p>
+              <h4 className="text-xl md:text-2xl font-bold text-cyan-400">{lang.name}</h4>
+              <p className="text-sm md:text-base text-gray-300 ">{lang.level}</p>
             </motion.div>
           ))}
         </div>

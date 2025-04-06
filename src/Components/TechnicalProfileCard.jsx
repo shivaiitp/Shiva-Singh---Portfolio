@@ -142,7 +142,7 @@ const TechnicalProfileCard = ({
       className={`bg-gradient-to-br ${platformData.color} p-4 rounded-xl shadow-lg text-white w-full sm:w-[300px]`}
     >
       <div className="flex items-center justify-between mb-4">
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-1">
           <img
             src={platformData.logo}
             alt={`${platform} logo`}
