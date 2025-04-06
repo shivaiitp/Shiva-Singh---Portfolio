@@ -48,7 +48,7 @@ export default function Experience() {
       </h2>
 
       {/* Experience Cards */}
-      <h3 className="text-2xl  border-b-2 w-full md:w-[87%] md:text-left md:text-3xl font-semibold text-white mb-8">
+      <h3 className="text-2xl  border-b-2 w-full md:max-w-7xl md:text-left md:text-3xl font-semibold text-white mb-8">
         Internships
       </h3>
       <div className="w-full flex flex-col gap-6 items-center">
@@ -58,7 +58,7 @@ export default function Experience() {
       </div>
 
       {/* Position of Responsibilities Section */}
-      <h3 className="text-2xl mt-12 border-b-2 w-full md:w-[87%] md:text-left md:text-3xl font-semibold text-white mb-8">
+      <h3 className="text-2xl mt-12 border-b-2 w-full md:max-w-7xl md:text-left md:text-3xl font-semibold text-white mb-8">
         Positions of Responsibility
       </h3>
 

@@ -66,8 +66,8 @@ export default function Skills() {
             </p>
 
             {/* Technical Skills Section */}
-            <h3 className="text-2xl border-b-2 w-full md:w-[87%] md:text-left md:text-3xl font-semibold text-white mb-8">Technical Skills</h3>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-12">
+            <h3 className="text-2xl border-b-2 w-full md:max-w-7xl md:text-left md:text-3xl font-semibold text-white mb-8">Technical Skills</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-12">
                 {TechSkills.map((skill, index) => (
                     <motion.div
                         key={index}
@@ -101,8 +101,8 @@ export default function Skills() {
             </div>
 
             {/* Soft Skills Section */}
-            <h3 className="text-2xl mt-12 border-b-2 w-full md:w-[87%] md:text-left md:text-3xl font-semibold text-white mb-8">Soft Skills</h3>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-12">
+            <h3 className="text-2xl mt-12 border-b-2 w-full md:max-w-7xl md:text-left md:text-3xl font-semibold text-white mb-8">Soft Skills</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-12">
                 {SoftSkills.map((skill, index) => (
                     <motion.div
                         key={index}

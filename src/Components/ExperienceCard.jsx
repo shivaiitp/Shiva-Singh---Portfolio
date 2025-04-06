@@ -18,7 +18,7 @@ function ExperienceCard({ experience }) {
         ease: "easeOut",
       }}
       viewport={{ once: true, amount: 0.3 }}
-      className="relative bg-gray-900/80 backdrop-blur-lg border border-gray-700 p-4 rounded-xl shadow-lg cursor-pointer w-full md:w-[87%] hover:border-cyan-400"
+      className="relative bg-gray-900/80 backdrop-blur-lg border border-gray-700 p-4 rounded-xl shadow-lg cursor-pointer w-full md:max-w-7xl hover:border-cyan-400"
     >
       {/* Title */}
       <div className="flex justify-between">

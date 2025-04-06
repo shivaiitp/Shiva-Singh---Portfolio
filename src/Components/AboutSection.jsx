@@ -96,7 +96,7 @@ function About() {
       <h3 className="text-2xl border-b-2 w-full md:max-w-7xl md:text-left md:text-3xl font-semibold text-white mb-8">
         Technical Profiles
       </h3>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
         {technicalProfiles.map((profile, index) => (
           <TechnicalProfileCard key={index} {...profile} />
         ))}
