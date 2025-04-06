@@ -67,7 +67,7 @@ const platformDetails = {
     logo: gfgLogo,
     getData: async (username) => {
       try {
-        const res = await fetch(`https://geeks-for-geeks-api.vercel.app/${username}`);
+        const res = await fetch(`/${username}`);        ;
         const data = await res.json();
 
         return {
@@ -148,7 +148,7 @@ const TechnicalProfileCard = ({
             alt={`${platform} logo`}
             className="w-6 h-6 md:w-8 md:h-8 object-contain bg-white rounded-full p-1"
           />
-          <span className="capitalize text-md md:text-xl font-semibold">{platform}</span>
+          <span className="capitalize text-xl pr-8 md:text-xl font-semibold">{platform}</span>
         </div>
         <a
           href={profileLink}
@@ -159,7 +159,7 @@ const TechnicalProfileCard = ({
           <FaLink /> Profile
         </a>
       </div>
-      <div className="flex flex-col sm:flex-row justify-between text-sm font-medium mt-2 gap-3 sm:gap-0">
+      <div className="flex flex-row justify-between text-sm font-medium mt-2 gap-2 sm:gap-0">
         <div>
           <p className="text-xs sm:text-sm text-gray-100">Problems Solved</p>
           <p className="text-sm sm:text-base md:text-lg">
